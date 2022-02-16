@@ -1,0 +1,102 @@
+/* !stile per tutto il sito*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ! imposto background al body */
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'ubuntu', sans-serif;
+}
+
+/* ! stile al container*/
+.container{
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 65%;
+  padding: 80px;
+  border-radius: 15px;
+  font-family: 'ubuntu', sans-serif;
+}
+
+/* ! header */
+header{
+  text-align: center;
+}
+
+header h1{
+  color: rgb(7, 252, 3);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+header img{
+  width: 25%;
+  height: 25%;
+}
+
+.button-section{
+  background-color: rgb(7, 252, 3);
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.button-section button{
+  padding: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* ! main e section */
+main{
+  color: rgb(255,255,255);
+}
+
+main section{
+  margin-top: 20px
+}
+
+.input-title{
+  margin-bottom: 10px;
+}
+
+.input-title h3{
+  display: inline-block;
+}
+
+.address{
+  font-size: 0.9rem;
+}
+
+/* !con la classe load do lo stile a tutte le barre di caricamento */
+.load{
+  height: 25px;
+  padding : 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* ! stile barra arancione */
+.medium{
+  background: rgb(245, 197, 66);
+  width: 30%;
+}
+
+/* ! stile barra verde */
+.large{
+  background: rgb(7, 252, 3);
+  width: 60%;
+}
+
+/* ! stile barra rossa */
+.small{
+  background: rgb(245, 66, 66);
+  width: 15%;
+}
